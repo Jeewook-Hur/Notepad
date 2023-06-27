@@ -1,0 +1,127 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++에서 생성한 포함 파일입니다.
+// Notepad20220811.rc에서 사용되고 있습니다.
+//
+#define IDR_MENU                        101
+#define IDR_MENU1                       101
+#define IDD_PAGESETTINGFORM             102
+#define IDD_DIALOGBAR                   103
+#define IDR_ACCELERATOR1                108
+#define IDI_ICON_NOTEPAD                110
+#define IDD_MOVETOLINEFORM              111
+#define IDD_ABOUTNOTEPAD                114
+#define IDC_STATIC_PAPER                1001
+#define IDC_COMBO_PAPERSIZE             1002
+#define IDC_BUTTON_PREVIEW              1003
+#define IDC_STATIC_PAPERSIZE            1004
+#define IDC_BUTTON_PREVIEW2             1005
+#define IDC_BUTTON_PRINT                1005
+#define IDC_RADIO_VERTICAL              1006
+#define IDC_RADIO_HORIZONTAL            1007
+#define IDC_EDIT_MARGINUP               1008
+#define IDC_EDIT_MARGINLEFT             1009
+#define IDC_EDIT_MARGINDOWN             1010
+#define IDC_EDIT_MARGINRIGHT            1011
+#define IDC_EDIT_HEADERSTRING           1012
+#define IDC_EDIT_FOOTERSTRING           1013
+#define IDC_STATIC_DIRECTION            1014
+#define IDC_STATIC_MARGIN               1015
+#define IDC_STATIC_MARGINLEFT           1016
+#define IDC_STATIC_MARGINRIGHT          1017
+#define IDC_STATIC_MARGINUP             1018
+#define IDC_STATIC_MARGINDOWN           1019
+#define IDC_STATIC_HEADERSTRING         1020
+#define IDC_STATIC_FOOTERSTRING         1021
+#define IDC_BUTTON_OK                   1022
+#define IDC_BUTTON_CANCEL               1023
+#define IDC_STATIC_HEADERLENGTH         1024
+#define IDC_EDIT_LINENUMBER             1024
+#define IDC_EDIT_HEADERLENGTH           1025
+#define IDC_BUTTON_MOVE                 1025
+#define IDC_STATIC_MARGINDOWN2          1026
+#define IDC_STATIC_LINENUMBER           1026
+#define IDC_EDIT_FOOTERLENGTH           1027
+#define IDC_BUTTON_FIRST                1027
+#define IDC_BUTTON_PREVIOUS             1028
+#define IDC_BUTTON_NEXT                 1029
+#define IDC_BUTTON_LAST                 1030
+#define IDC_STATIC_BUTTONS              1031
+#define IDC_STATIC_COPYRIGHTKOR         1032
+#define IDC_STATIC_WARNING              1033
+#define IDC_STATIC_COPYRIGHTENG         1034
+#define ID_40001                        40001
+#define IDM_FORMAT_FONT                 40002
+#define ID_40003                        40003
+#define ID_40004                        40004
+#define ID_40005                        40005
+#define ID_40006                        40006
+#define IDM_FORMAT_LOAD                 40007
+#define IDM_FORMAT_SAVE                 40008
+#define IDM_FORMAT_SAVEAS               40009
+#define ID_40010                        40010
+#define ID_40011                        40011
+#define IDM_FORMAT_CLOSE                40012
+#define ID_40013                        40013
+#define ID_40014                        40014
+#define IDM_FORMAT_LINEWRAP             40015
+#define ID_40016                        40016
+#define ID_40017                        40017
+#define ID_40018                        40018
+#define ID_40019                        40019
+#define IDM_FORMAT_ZOOMIN               40020
+#define IDM_FORMAT_ZOOMOUT              40021
+#define IDM_FORMAT_RESTOREDEFALTZOOM    40022
+#define ID_40023                        40023
+#define IDM_FORMAT_NEW                  40024
+#define ID_40025                        40025
+#define ID_40026                        40026
+#define ID_40027                        40027
+#define ID_40028                        40028
+#define ID_40029                        40029
+#define ID_40030                        40030
+#define IDM_FORMAT_UNDO                 40031
+#define IDM_FORMAD_COPY                 40032
+#define IDM_FORMAT_COPY                 40033
+#define IDM_FORMAT_CUT                  40034
+#define IDM_FORMAT_PASTE                40035
+#define IDM_FORMAT_DELETE               40036
+#define IDM_FORMAT_FIND                 40037
+#define ID_40038                        40038
+#define IDM_FORMAT_SELECTALL            40039
+#define ID_40040                        40040
+#define IDM_FORMAT_REDO                 40041
+#define ID_40042                        40042
+#define ID_40043                        40043
+#define ID_40044                        40044
+#define ID_40045                        40045
+#define ID_40046                        40046
+#define ID_40047                        40047
+#define ID_40048                        40048
+#define ID_40049                        40049
+#define ID_40050                        40050
+#define ID_40051                        40051
+#define ID_40052                        40052
+#define IDM_FORMAT_FINDNEXT             40053
+#define IDM_FORMAT_FINDPREVIOUS         40054
+#define IDM_FORMAT_REPLACE              40055
+#define IDM_FORMAT_MOVETO               40056
+#define IDM_FORMAT_DATE                 40057
+#define IDM_FORMAT_PRINT                40058
+#define IDM_FORMAT_PAGESETTING          40059
+#define IDM_FORMAT_STATUSBAR            40060
+#define IDM_FORMAT_VIEWHELP             40061
+#define IDM_FORMAT_ABOUTNOTEPAD         40062
+#define IDM_FORMAT_PREVIEW              40063
+#define ID_40064                        40064
+#define ID_ACCELERATOR40065             40065
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        116
+#define _APS_NEXT_COMMAND_VALUE         40067
+#define _APS_NEXT_CONTROL_VALUE         1035
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

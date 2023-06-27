@@ -1,0 +1,272 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "파일"
+    BEGIN
+        MENUITEM "새로 만들기(N)\tCtrl+N",           IDM_FORMAT_NEW
+        MENUITEM "열기(O)... \t Ctrl+O",          IDM_FORMAT_LOAD
+        MENUITEM "저장(S) \t Ctrl+S",             IDM_FORMAT_SAVE
+        MENUITEM "다른 이름으로 저장(A)...    \t    Ctrl+Shfit+S", IDM_FORMAT_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "페이지 설정(U)...",                IDM_FORMAT_PAGESETTING
+        MENUITEM "미리보기...",                     IDM_FORMAT_PREVIEW
+        MENUITEM "인쇄(P) \t Ctrl+P",             IDM_FORMAT_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(X)",                      IDM_FORMAT_CLOSE
+    END
+    POPUP "편집"
+    BEGIN
+        MENUITEM "실행 취소(U)\tCtrl+Z",            IDM_FORMAT_UNDO, INACTIVE
+        MENUITEM "재실행\tCtrl+Shift+Z",           IDM_FORMAT_REDO, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(T)\tCtrl+X",             IDM_FORMAT_CUT, INACTIVE
+        MENUITEM "복사(C)\tCtrl+C",               IDM_FORMAT_COPY, INACTIVE
+        MENUITEM "붙여넣기(P)\tCtrl+V",             IDM_FORMAT_PASTE, INACTIVE
+        MENUITEM "삭제(L)\tDel",                  IDM_FORMAT_DELETE, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "찾기(F)\tCtrl+F",               IDM_FORMAT_FIND
+        MENUITEM "바꾸기(R)\tCtrl+H",              IDM_FORMAT_REPLACE
+        MENUITEM "이동(G)\tCtrl+G",               IDM_FORMAT_MOVETO
+        MENUITEM SEPARATOR
+        MENUITEM "모두 선택(A)\tCtrl+A",            IDM_FORMAT_SELECTALL
+        MENUITEM "시간/날짜(D)\t                F5", IDM_FORMAT_DATE
+    END
+    POPUP "서식"
+    BEGIN
+        MENUITEM "자동 줄 바꿈(W)",                  IDM_FORMAT_LINEWRAP
+        MENUITEM "글꼴(F)...",                    IDM_FORMAT_FONT
+    END
+    POPUP "보기"
+    BEGIN
+        POPUP "확대하기/축소하기"
+        BEGIN
+            MENUITEM "확대 \t Ctrl+더하기",              IDM_FORMAT_ZOOMIN
+            MENUITEM "축소 \t Ctrl+빼기",               IDM_FORMAT_ZOOMOUT
+            MENUITEM "확대하기/축소하기 기본값 복원 \t Ctrl+0",  IDM_FORMAT_RESTOREDEFALTZOOM
+        END
+        MENUITEM "상태표시줄(S)",                    IDM_FORMAT_STATUSBAR
+    END
+    POPUP "도움말"
+    BEGIN
+        MENUITEM "도움말 보기(H)",                   IDM_FORMAT_VIEWHELP
+        MENUITEM SEPARATOR
+        MENUITEM "메모장 정보(A)",                   IDM_FORMAT_ABOUTNOTEPAD
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGESETTINGFORM DIALOGEX 0, 0, 179, 221
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "페이지 설정"
+FONT 16, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "용지",IDC_STATIC_PAPER,14,14,149,34
+    LTEXT           "크기",IDC_STATIC_PAPERSIZE,29,29,12,8
+    COMBOBOX        IDC_COMBO_PAPERSIZE,53,28,83,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "방향",IDC_STATIC_DIRECTION,14,53,149,37
+    CONTROL         "세로",IDC_RADIO_VERTICAL,"Button",BS_AUTORADIOBUTTON,23,63,21,10
+    CONTROL         "가로",IDC_RADIO_HORIZONTAL,"Button",BS_AUTORADIOBUTTON,23,76,24,10
+    GROUPBOX        "여백(밀리미터)",IDC_STATIC_MARGIN,14,95,148,65
+    LTEXT           "왼쪽",IDC_STATIC_MARGINLEFT,21,108,12,8
+    EDITTEXT        IDC_EDIT_MARGINLEFT,41,107,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "오른쪽",IDC_STATIC_MARGINRIGHT,91,108,17,8
+    EDITTEXT        IDC_EDIT_MARGINRIGHT,112,107,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "위쪽",IDC_STATIC_MARGINUP,21,126,12,8
+    EDITTEXT        IDC_EDIT_MARGINUP,41,124,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "아래쪽",IDC_STATIC_MARGINDOWN,91,126,17,8
+    EDITTEXT        IDC_EDIT_MARGINDOWN,112,124,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "머리말",IDC_STATIC_HEADERLENGTH,21,143,17,8
+    EDITTEXT        IDC_EDIT_HEADERLENGTH,41,141,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "꼬리말",IDC_STATIC_MARGINDOWN2,91,143,17,8
+    EDITTEXT        IDC_EDIT_FOOTERLENGTH,112,141,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "머리말",IDC_STATIC_HEADERSTRING,21,165,17,8
+    EDITTEXT        IDC_EDIT_HEADERSTRING,41,163,111,12,ES_AUTOHSCROLL
+    LTEXT           "꼬리말",IDC_STATIC_FOOTERSTRING,21,181,17,8
+    EDITTEXT        IDC_EDIT_FOOTERSTRING,41,179,111,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "확인",IDC_BUTTON_OK,10,196,37,14
+    PUSHBUTTON      "미리보기",IDC_BUTTON_PREVIEW,50,196,38,14
+    PUSHBUTTON      "인쇄",IDC_BUTTON_PRINT,91,196,38,14
+    PUSHBUTTON      "취소",IDC_BUTTON_CANCEL,132,196,36,14
+END
+
+IDD_MOVETOLINEFORM DIALOGEX 0, 0, 138, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "줄 이동"
+FONT 16, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "이동",IDC_BUTTON_MOVE,16,48,50,14
+    PUSHBUTTON      "취소",IDC_BUTTON_CANCEL,70,48,50,14
+    LTEXT           "줄 번호 :",IDC_STATIC_LINENUMBER,18,14,26,8
+    EDITTEXT        IDC_EDIT_LINENUMBER,17,26,103,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 221, 21
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD
+FONT 8, "굴림", 400, 0, 0x81
+BEGIN
+    PUSHBUTTON      "처음",IDC_BUTTON_FIRST,3,2,50,16,BS_VCENTER
+    PUSHBUTTON      "이전",IDC_BUTTON_PREVIOUS,55,2,50,16,BS_VCENTER
+    PUSHBUTTON      "다음",IDC_BUTTON_NEXT,108,2,50,16,BS_VCENTER
+    PUSHBUTTON      "마지막",IDC_BUTTON_LAST,161,2,50,16,BS_VCENTER
+END
+
+IDD_ABOUTNOTEPAD DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Windows Notepad"
+FONT 16, "굴림", 400, 0, 0x81
+BEGIN
+    DEFPUSHBUTTON   "확인",IDC_BUTTON_OK,251,154,50,14
+    LTEXT           "Copyrightⓒ 허지욱(Hur Jeewook)",IDC_STATIC_COPYRIGHTKOR,17,19,122,45
+    LTEXT           "Copyrightⓒ JeewookHur",IDC_STATIC_COPYRIGHTENG,154,19,125,47
+    LTEXT           "Warning",IDC_STATIC_WARNING,17,73,274,76
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PAGESETTINGFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_MOVETOLINEFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 131
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_DIALOGBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 217
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 18
+    END
+
+    IDD_ABOUTNOTEPAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PAGESETTINGFORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MOVETOLINEFORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOGBAR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTNOTEPAD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_NOTEPAD        ICON                    "notepad-icon-17545-Windows.ico"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
